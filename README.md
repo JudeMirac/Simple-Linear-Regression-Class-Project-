@@ -3,7 +3,7 @@
 ## Project Overview
 This project is focused on implementing a Simple Linear Regression algorithm to analyze and predict outcomes based on given datasets. The methodology employed not only demonstrates the linear regression process but also emphasizes important statistical concepts that underlie the model's application.
 
-## Assignment Requirements (DS 640 Assignment 2)
+## Assignment Requirements 
 The project adheres to the following key requirements:
 
 1. **Read CSV File:** The dataset is loaded from a CSV file using Python's pandas library.
