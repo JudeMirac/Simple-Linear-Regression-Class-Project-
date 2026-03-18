@@ -50,9 +50,3 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
 Then open the Jupyter notebook and run all cells to see the analysis and model results.
-
----
-
-**Course:** DS 640  
-**Points:** 100  
-**Status:** Completed
