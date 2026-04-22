@@ -1,52 +1,37 @@
-# Simple Linear Regression Class Project
+# College Projects
 
-## Project Overview
-This project is focused on implementing a Simple Linear Regression algorithm to analyze and predict outcomes based on given datasets. The methodology employed not only demonstrates the linear regression process but also emphasizes important statistical concepts that underlie the model's application.
+## About This Repository
+This repository is a curated collection of machine learning and data science class assignments completed as part of my college coursework. Each project demonstrates a different algorithm or technique applied to real-world datasets, covering foundational topics in supervised learning, dimensionality reduction, and classification.
 
-## Assignment Requirements 
-The project adheres to the following key requirements:
+---
 
-1. **Read CSV File:** The dataset is loaded from a CSV file using Python's pandas library.
-   - Data source: USA Housing dataset
-   - Loaded using `pd.read_csv()`
+## Repository Layout
 
-2. **Pairplot of Independent Variables:** Visual representations of relationships between variables are created using pairplots from the seaborn library to help visualize correlations between all features and the target variable (Price).
+| Notebook | Topic | Description |
+|---|---|---|
+| `Linear Regression Assignment.ipynb` | Simple Linear Regression | Predicts house prices using the USA Housing dataset. Covers data loading, pairplots, regression coefficients, residual analysis, and error metrics (MAE, MSE, RMSE). |
+| `PCA Assignment.ipynb` | Principal Component Analysis | Applies PCA for dimensionality reduction, visualizes explained variance, and explores how reducing features affects model performance. |
+| `SVM Assignment.ipynb` | Support Vector Machines | Implements SVM classification, tunes kernel parameters, and evaluates model accuracy using confusion matrices and classification reports. |
 
-3. **Intercept and Coefficients:** The calculation of the regression equation's intercept and coefficients is performed to interpret the relationship between independent and dependent variables.
-   - Linear equation: Price = intercept + (coef₁ × Avg. Area Income) + (coef₂ × Avg. Area House Age) + (coef₃ × Avg. Area Number of Rooms) + (coef₄ × Avg. Area Number of Bedrooms) + (coef₅ × Area Population)
-
-4. **Residual Distribution Histogram:** Residuals are plotted on a histogram to analyze their distribution and check homoscedasticity (equal variance of errors).
-
-5. **Error Metrics:** The project calculates various error metrics to evaluate model performance:
-   - **Mean Absolute Error (MAE):** Average of absolute differences between predicted and actual values
-   - **Mean Squared Error (MSE):** Average of squared differences between predicted and actual values
-   - **Root Mean Squared Error (RMSE):** Square root of MSE, in original units of the target variable
-
-## Dataset
-The project uses the **USA Housing dataset** which includes the following features:
-- **Avg. Area Income:** Average income of the area
-- **Avg. Area House Age:** Average age of houses in the area
-- **Avg. Area Number of Rooms:** Average number of rooms
-- **Avg. Area Number of Bedrooms:** Average number of bedrooms
-- **Area Population:** Population of the area
-- **Price:** The target variable (house prices)
+---
 
 ## Technologies Used
-- **Python 3**: Programming language
-- **Pandas**: Data manipulation and CSV reading
-- **NumPy**: Numerical computing and vectorized operations
-- **Scikit-learn**: Machine learning library for linear regression
-- **Matplotlib & Seaborn**: Data visualization libraries
+- **Python 3** — core programming language
+- **Pandas** — data loading and manipulation
+- **NumPy** — numerical computing
+- **Scikit-learn** — machine learning algorithms (Linear Regression, PCA, SVM)
+- **Matplotlib & Seaborn** — data visualization
 
-## Project Structure
-- `Predictive_Modeling_Assignment.ipynb`: Main Jupyter notebook containing all code, visualizations, and analysis
-- `LICENSE`: Project license file
-- `README.md`: This file
+---
 
 ## Getting Started
-To run this project, ensure you have the required libraries installed:
+Install the required libraries before running any notebook:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
+Then open the desired Jupyter notebook and run all cells to see the full analysis and results.
 
-Then open the Jupyter notebook and run all cells to see the analysis and model results.
+---
+
+## License
+See the [LICENSE](LICENSE) file for details.
